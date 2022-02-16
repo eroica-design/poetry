@@ -64,7 +64,7 @@
       font-size: 38px;
       letter-spacing: -3px;
     }  
-    .left-ani{
+    .left-ani-1{
       position:relative;
       animation-name: left-ani;
       animation-duration: 4s;
@@ -74,8 +74,34 @@
       animation-direction: alternate;
     }
     @keyframes left-ani{
-      0% {color: white; left:-150px; top:0px;}
-      100% {color: black; left:0px; top:0px;}
+      0% {color: white}
+      100% {color: black}
+    }  
+    .left-ani-1{
+      position:relative;
+      animation-name: left-ani;
+      animation-duration: 4s;
+      animation-timing-function: linear;
+      animation-delay: 4s;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+    }
+    @keyframes left-ani{
+      0% {color: white}
+      100% {color: black}
+    }  
+    .left-ani-2{
+      position:relative;
+      animation-name: left-ani;
+      animation-duration: 4s;
+      animation-timing-function: linear;
+      animation-delay: 1s;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+    }
+    @keyframes left-ani{
+      0% {color: white; right:-100px; top:0px;}
+      100% {color: black; right:0px; top:0px;}
     }  
   </style>
 </head>
@@ -88,13 +114,13 @@
     <div class="text-wrap">
       <p class="text-c">죽는 날까지 <span class="effect-1">하늘을</span> 우러러</p>
       <p class="text-r">한 점 <span class="effect-2">부끄럼이</span> 없기를,</p>
-      <p class="p-3 left-ani">잎새에 이는 바람에도</p>
+      <p class="p-3 left-ani-1">잎새에 이는 바람에도</p>
       <p class="text-c"><span class="effect-2">나는</span> 괴로워했다.</p>
       <br><br>
       <p>별을 노래하는 마음으로</p>
       <p class="text-r">모든 <span class="effect-2">죽어 가는</span> 것을 <span class="effect-1">사랑</span>해야지</p>
       <p class="text-r p-3">그리고 나한테 주어진 길을</p>
-      <p class="text-c p-3 left-ani">걸어가야겠다.</p>
+      <p class="text-c p-3 left-ani-2">걸어가야겠다.</p>
       <br><br><br>
       <p>오늘 밤에도 <span class="effect-2">별이</span> 바람에 스치운다.</p>
     </div>
