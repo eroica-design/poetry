@@ -35,6 +35,16 @@
     .tit-a > h1{
       float: left;
       font-size: 80px;
+      animation-name: tit;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-delay: 2s;
+      animation-iteration-count: 1;
+      animation-direction: alternate;
+    }
+    @keyframes tit{
+      0% {background-color: white; left: -100px; top: 0px;}
+      100%{background-color: black; left: 0px; top: 0px;}
     }
     .tit-a > p{ 
       padding-left: 100px;
